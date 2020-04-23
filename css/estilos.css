@@ -30,6 +30,7 @@ nav{
  */    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
 nav ul{
@@ -38,7 +39,6 @@ nav ul{
 
 nav li{
     padding-left: 20px;
-    padding-right: 10px;
     list-style: none;
 }
 
@@ -213,66 +213,4 @@ footer a {
 footer a:hover {
     color: rgb(88, 85, 85);
     transition: 0.2s;
-}
-
-@media only screen and (max-width: 600px)
-{
-    body {
-        box-sizing: border-box;
-    }
-
-    .products{
-        flex-wrap: wrap;
-        padding: 20px;
-        background: none;
-        max-height: none
-    }
-
-    .product {
-        margin: 0;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .beneficios {
-        flex-wrap: wrap;
-        padding: 20px;
-        justify-content: center;
-
-    }
-    
-    .beneficio {
-        margin: 10px;
-        max-width: 150px;
-        align-items: center;
-    }
-
-    .mention_title {
-        padding: 0;
-    }
-
-    .mentions {
-        padding: 0;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .mention {
-        max-width: 180px;
-    }
-
-    .titleCookie a{
-        font-size: 25px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    nav li a {
-        font-size: 12px;
-    }
-
-    footer a {
-        font-size: 12px;
-    }
 }
