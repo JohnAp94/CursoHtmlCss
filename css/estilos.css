@@ -75,6 +75,10 @@ nav img {
     text-align: center;
 }
 
+.main_section h1{
+    font-size: 27px;
+}
+
 .products{
     background-image: url("https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png");
     max-height: 50px;
