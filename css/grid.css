@@ -4,6 +4,13 @@
     margin-bottom: 10%;
 }
 
+.container_pago{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
 .container h1 {
     font-size: 45px;
     margin-top: 5%;
@@ -98,5 +105,9 @@
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
         width: 100%;
+    }
+
+    .container_pago .row{
+        flex-wrap: wrap;
     }
 }
