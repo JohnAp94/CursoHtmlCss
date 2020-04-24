@@ -236,6 +236,31 @@ footer a:hover {
     transition: 0.2s;
 }
 
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    background-size: 50px 50px;
+
+}
+
+.social-link.twitter {
+    background-image: url('../images/twitter.svg');
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook.svg');
+}
+
+.social-link.github {
+    background-image: url('../images/github.svg');
+}
+
+.social-link.instagram {
+    background-image: url('../images/instagram.svg');
+}
+
 /* ----------------------------------------------------------------Venta */
 
 .modulo_pago {

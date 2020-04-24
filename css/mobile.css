@@ -70,3 +70,16 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 750px)
+{
+    footer {
+        display: inherit;
+        text-align: center;
+        height: 100px;
+    }
+
+    .social_media {
+        padding: 10px 0;
+    }
+}

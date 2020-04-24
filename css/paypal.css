@@ -1,0 +1,31 @@
+body {
+    background-color: var(--black-color);
+    text-align: center;
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px var(--pink-color);
+}
+
+body h1 {
+    font-size: 40px;
+    text-shadow: 0 0 2px white;
+    margin: 0;
+}
+
+.content_img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.content_paypal a{
+    color: var(--pink-color);
+}
