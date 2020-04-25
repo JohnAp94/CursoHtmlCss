@@ -19,12 +19,14 @@
 
     .main_section {
         padding: 4%;
+        margin: 0;
     }
 
     .beneficios {
         flex-wrap: wrap;
         padding: 20px;
         justify-content: center;
+        margin: 0;
 
     }
     

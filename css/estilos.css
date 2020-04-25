@@ -82,8 +82,9 @@ label {
 /* -------------------main section------------------- */
 
 .main_section{
-    padding: 10%;
+    padding: 7%;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .main_section h1{
@@ -92,16 +93,17 @@ label {
 
 .products{
     background-image: url("https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png");
+    padding: 10%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
     max-height: 50px;
     background-size: cover;
-    background-position: center top;
-    padding: 10%;
-    display: flex;
 }
 
 .product {
     padding: var(--space);
-    margin-top: -240px;
+    margin-top: -27.5%;
 }
 
 .product .content{
@@ -109,6 +111,7 @@ label {
     padding: 15px;
     box-shadow: var(--box);
     text-align: center;
+    border-radius: 3px;
 }
 
 .content:hover {
@@ -147,6 +150,7 @@ label {
 .beneficios {
     padding: 5%;
     display: flex;
+    margin-top: 40px;
 }
 
 .beneficio {
