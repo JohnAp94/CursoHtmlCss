@@ -285,3 +285,29 @@ footer a:hover {
 .modulo_pago .main_button {
     margin-top: 10px;
 }
+
+/* ----------------------------------------------------------------Faqs */
+
+.titleFaqs {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.faqsFaqs {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.faqsAnwers {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.faqsAnwers p {
+    font-size: 15px;
+    padding: 5%;
+}
